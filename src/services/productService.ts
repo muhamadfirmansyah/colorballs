@@ -1,4 +1,4 @@
-import { Get } from "../shared/utils/service";
+import { Get, Post } from "../shared/utils/service";
 
 // The path should be start by '/'
 
@@ -8,3 +8,17 @@ import { Get } from "../shared/utils/service";
  * 
  */
 export const getProducts = () => Get("/products")
+
+/**
+ * Create a product
+ * @param(any) data
+ * @returns promise
+ */
+export const postProduct = (data: any) => Post("/products", data)
+
+/**
+ * Get a product
+ * @param(string) id
+ * @retursn product
+ */
+export const getProduct = (id: string) => Get(`/products/${id}`)

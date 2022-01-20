@@ -1,5 +1,7 @@
 const initialState = {
-    products: []
+    products: [],
+    product: {},
+    isLoading: false
 }
 
 const productReducer = (state: any = initialState, action: { type: string, payload: string | {} | any }) => {
@@ -8,6 +10,18 @@ const productReducer = (state: any = initialState, action: { type: string, paylo
             return {
                 ...state,
                 products: action.payload
+            }
+        }
+        case "SET_PRODUCT": {
+            return {
+                ...state,
+                product: action.payload
+            }
+        }
+        case "TOGGLE_LOADING": {
+            return {
+                ...state,
+                isLoading: !state.isLoading
             }
         }
         default:

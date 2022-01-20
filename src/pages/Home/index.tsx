@@ -17,29 +17,7 @@ const Home = () => {
 
     return (
         <Layout>
-            {/* <div className='mb-[16px]'>
-                <ul className='flex items-center whitespace-nowrap gap-2 py-3 overflow-x-auto'>
-                    <li className='px-3 text-[14px] text-blue-400 bg-blue-100 rounded-full font-medium'>
-                        All
-                    </li>
-                    <li className='px-3 text-[14px]'>
-                        Recomendations
-                    </li>
-                    <li className='px-3 text-[14px]'>
-                        Geology
-                    </li>
-                </ul>
-            </div>
-            <div className="overflow-x-auto flex gap-4">
-                <div className="bg-blue-100 w-60 h-[150px] max-w-[520px] min-w-[240px] rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1528459639788-428ce548b1fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=717&q=80" className='w-100' alt="" />
-                </div>
-                <div className="bg-blue-100 w-60 h-[150px] max-w-[520px] min-w-[240px] rounded-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1515261439133-0f6cfb098e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className='w-100' alt="" />
-                </div>
-            </div> */}
-
-            <ColumnList title='Ecosystem' items={plants} />
+            <ColumnList title='Ecosystem' items={plants} isLoading={false} />
         </Layout >
     )
 }

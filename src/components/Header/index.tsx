@@ -8,7 +8,7 @@ const Header = () => {
                     <DotsHorizontalIcon className='w-8 text-gray-400' />
                 </div>
                 <div className='flex justify-center'>
-                    <h6 className='font-bold'>Plantr</h6>
+                    <h6 className='font-bold'>🌲 Socioplant</h6>
                 </div>
                 <div className='flex justify-end'>
                     <div className='w-10 h-10 rounded-full bg-blue-100 text-blue-400 font-bold flex items-center justify-center'>

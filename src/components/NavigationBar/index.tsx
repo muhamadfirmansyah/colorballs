@@ -26,7 +26,7 @@ const NavigationBar = () => {
         <>
 
             <div className="fixed bottom-[86px] right-[20px]">
-                <button className="border w-[60px] h-[60px] rounded-full text-[32px] flex items-center justify-center text-blue-500 bg-white">&#43;</button>
+                <NavLink to="/content" className="border w-[60px] h-[60px] rounded-full text-[32px] flex items-center justify-center text-blue-500 bg-white">&#43;</NavLink>
             </div>
 
             <nav className='fixed bottom-0 bg-gray-100 shadow-lg drop-shadow-lg py-3 block w-full left-0'>
