@@ -1,6 +1,6 @@
 {
-    "short_name": "Socioplant",
-    "name": "Socioplant: give the plant a chance for life",
+    "short_name": "Colorballs",
+    "name": "Colorballs",
     "icons": [{
             "src": "favicon.ico",
             "sizes": "64x64 32x32 24x24 16x16",
@@ -19,7 +19,7 @@
     ],
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "##60A5FA",
-    "background_color": "#ffffff",
+    "theme_color": "#FEE2E2",
+    "background_color": "#FEE2E2",
     "prefer_related_applications": false
 }
